@@ -4,8 +4,8 @@ export default function Footer() {
         <section id="contact">
           <div className="columns mb-large">
             <div className="column is-8 is-align-items-flex-end">
-              <h5 className='subtitle is-spaced mb-medium'><span className='accent'></span>Contact us</h5>
-              <h2 className='title is-2 is-size-4-mobile'>Have a project in mind?<br />Let&apos;s make it happen</h2>
+              <h2 className='subtitle is-spaced mb-medium'><span className='accent'></span>Contact us</h2>
+              <h3 className='title is-2 is-size-4-mobile'>Have a project in mind?<br />Let&apos;s make it happen</h3>
             </div>
             <div className="column is-size-5 is-4 is-flex is-align-items-flex-end">
               <p>

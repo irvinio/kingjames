@@ -39,7 +39,7 @@ export default function Home({ data, slides }) {
         />
 
         <section id='services' className='pdb-zero'>
-          <h5 className='subtitle is-spaced mb-medium'><span className='accent'></span>What we do</h5>
+          <h2 className='subtitle is-4 is-spaced mb-medium'><span className='accent'></span>What we do</h2>
           <h1 className='title is-1 is-size-3-mobile mb-medium'>We offer a complete range of bespoke design and development services to help you turn your ideas into digital masterpieces</h1>
           <div className='columns is-variable is-6-tablet is-flex-wrap-wrap'>
             {data.services.map(service => (
@@ -55,14 +55,14 @@ export default function Home({ data, slides }) {
         </section>
 
         <section id='cases' className='pdb-zero'>
-          <h5 className='subtitle is-spaced mb-medium'><span className='accent'></span>Case studies</h5>
+          <h2 className='subtitle is-spaced mb-medium'><span className='accent'></span>Case studies</h2>
           <Slider
             slides={slides}
           />              
         </section>
 
         <section id='brands'>
-          <h5 className='subtitle is-spaced mb-medium'><span className='accent'></span>You&apos;ll be in good company</h5>
+          <h2 className='subtitle is-spaced mb-medium'><span className='accent'></span>You&apos;ll be in good company</h2>
           <h1 className='title is-1 is-size-3-mobile mb-medium'>Trusted by leading brands</h1>
           <div className='columns is-gapless is-justify-content-center is-flex-wrap-wrap'>
             {data.brands.map(brand => (

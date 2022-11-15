@@ -10,7 +10,7 @@ export default function Blurb({ iconUrl, title, content, alt}) {
             height={64}
             alt={alt}
         />
-        <h4 className='title is-4'>{title}</h4>
+        <h2 className='title is-4'>{title}</h2>
         <p className='is-size-5 has-text-left-mobile'>{content}</p>
     </div>
   )

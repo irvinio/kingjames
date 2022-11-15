@@ -18,9 +18,9 @@ export default function Hero({ url, alt, title, subtitle, cta}) {
             <h1 className="title is-spaced is-1 is-size-3-mobile has-text-white-bis mb-6">
                 {title}
             </h1>
-            <h5 className="subtitle is-5 has-text-white-ter">
+            <h2 className="subtitle is-5 has-text-white-ter">
                 {subtitle}
-            </h5>
+            </h2>
             <a className='button is-primary is-small is-rounded has-text-weight-bold' href="#">
                 {cta}
             </a>
