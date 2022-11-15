@@ -3,6 +3,9 @@
     min-height: 450px;
     max-height: 600px;
     position: relative;
+    background: #000;
+    position: relative;
+    z-index: -2;
     .hero-bg {
         object-fit: cover;
         z-index: -1;
