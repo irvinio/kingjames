@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('../public/fonts/Inter-Regular.woff2') format("woff2"),
+         url('../public/fonts/Inter-Regular.woff') format("woff");
+  }
+
+@font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('../public/fonts/Inter-Bold.woff2') format("woff2"),
+         url('../public/fonts/Inter-Bold.woff') format("woff");
+  }
+
+@import './colors.scss';
+
+$gap: 24px;
+$fullhd: 1488px;
+$spacing-shortcuts: ("margin": "mg", "margin-bottom": "mb", "padding": "pd", "padding-bottom": "pdb", "padding-left": "px", "padding-right": "px");
+$spacing-values: ("zero": 0px, "small": 10px, "medium": 50px, "large": 80px);
+$title-line-height: 1.4;
+$family-sans-serif: "Inter", sans-serif;
+
+$navbar-height: 5rem;
+$navbar-background-color: $primary;
+$navbar-item-color: white;
+$navbar-item-hover-color: $primary-active;
+$navbar-item-hover-background-color: transparent;
+
+@import 'bulma/bulma';
+@import './navbar.scss';
+@import './hero.scss';
+@import './slider.scss';
+@import './footer.scss';
+@import './global.scss';

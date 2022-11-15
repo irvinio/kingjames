@@ -1,0 +1,19 @@
+footer {
+    background-color: $primary-dark;
+    color: #fff;
+    line-height: 30px;
+    .title {
+        color: $light;
+    }
+    .subtitle, a {
+        color: #fff;
+    }
+    a {
+        &:hover {
+            color: $primary-active;
+        }
+        &[href^="mailto:"] {
+            text-decoration: underline;
+        }
+    }
+}

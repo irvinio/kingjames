@@ -1,0 +1,69 @@
+html {
+    scroll-behavior: smooth;
+}
+
+::-moz-selection {
+    color: $light;
+    background: $primary;
+}
+    
+::selection {
+color: $light;
+background: $primary;
+}
+
+.accent {
+    display: inline-block;
+    width: 40px;
+    margin-right: 20px;
+    height: 4px;
+    background-color: $primary-active;
+    vertical-align: middle;
+}
+
+section {
+    &:not(.hero) {
+        padding: 5rem;
+    }
+}
+
+#brands .column {
+    height: 120px;
+    img {
+        width: auto;
+    }
+}
+
+@include mobile {
+    .hero {
+        .hero-body {
+            padding: 3rem 2rem;
+            background-color: rgba(0, 0, 0, 0.75);
+            .title, .subtitle {
+                width: auto;
+            }
+        }
+    }
+    section:not(.hero) {
+        padding: 3rem 2rem;
+    }
+    .is-blurb img {
+        margin-bottom: 1.5rem;
+    }
+    footer li {
+        text-align: center;
+        line-height: 36px;
+    }
+}
+
+@include tablet {
+    #services .column .title {
+        min-height: 68px;
+    }
+    .is-blurb img {
+        margin-bottom: 2.5rem;
+    }
+    .keen-slider__slide > div {
+        cursor: grab;
+    }
+}

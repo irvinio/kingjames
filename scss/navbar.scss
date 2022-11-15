@@ -1,0 +1,34 @@
+.navbar {
+    .navbar-item {
+        font-size: 0.875rem;
+        padding: 0.5rem 1rem;
+        font-weight: 700;
+    }
+    .navbar-brand {
+        padding-left: 1.25rem;
+        .navbar-item {
+            padding: 0;
+        }
+    }
+    .navbar-end {
+        padding-right: 1.25rem;
+        .navbar-item {
+            padding: 0;
+        }
+    }
+}
+
+@include tablet {
+    .navbar {
+        .navbar-menu {
+            box-shadow: none;
+        }
+        .navbar .navbar-item {
+            text-align: center;
+            line-height: 30px;
+        }
+        .navbar-end {
+            padding: 2rem 0;
+        }
+    }
+}

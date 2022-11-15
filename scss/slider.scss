@@ -1,0 +1,43 @@
+.keen-slider {
+    .keen-slider__slide > div {
+        position: relative;
+        height: 400px;
+        padding: 1.5rem;
+        color: #fff;
+        overflow: hidden;
+        cursor: grab;
+        background: -moz-linear-gradient(0deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.65) 10%, rgba(255,255,255,0) 50%);
+        background: -webkit-linear-gradient(0deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.65) 10%, rgba(255,255,255,0) 50%);
+        background: linear-gradient(0deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.65) 10%, rgba(255,255,255,0) 50%);
+        .title {
+            color: inherit;
+        }
+        img {
+            z-index: -1;
+            object-fit: cover;
+            object-position: top;
+        }
+    }
+}
+
+.navigation-wrapper {
+    position: relative;
+}
+  
+.arrow {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    fill: #fff;
+    cursor: pointer;
+    &.arrow--left {
+        left: 5px;
+    }
+    &.arrow--right {
+        left: auto;
+        right: 5px;
+    }
+}

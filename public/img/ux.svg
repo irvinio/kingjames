@@ -1,0 +1,12 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" style="">
+<g clip-path="url(#clip0_307_12168)">
+<path d="M51.5919 26.1225C51.5919 40.1888 40.1888 51.5919 26.1225 51.5919C12.0561 51.5919 0.653076 40.1888 0.653076 26.1225C0.653076 12.0561 12.0561 0.653084 26.1225 0.653084C40.1888 0.653084 51.5919 12.0561 51.5919 26.1225Z" stroke="#D100C9" stroke-width="2" class="MgEnglDy_0"></path>
+<path d="M63.347 32C63.347 46.0663 51.9439 57.4694 37.8776 57.4694C23.8112 57.4694 12.4082 46.0663 12.4082 32C12.4082 17.9336 23.8112 6.53059 37.8776 6.53059C51.9439 6.53059 63.347 17.9336 63.347 32Z" stroke="#D100C9" stroke-width="2" class="MgEnglDy_1"></path>
+<path d="M51.5919 37.8775C51.5919 51.9439 40.1888 63.3469 26.1225 63.3469C12.0561 63.3469 0.653076 51.9439 0.653076 37.8775C0.653076 23.8112 12.0561 12.4081 26.1225 12.4081C40.1888 12.4081 51.5919 23.8112 51.5919 37.8775Z" stroke="#D100C9" stroke-width="2" class="MgEnglDy_2"></path>
+</g>
+<defs>
+<clipPath id="clip0_307_12168">
+<path width="64" height="64" fill="white" d="M0 0 L64 0 L64 64 L0 64 Z" class="MgEnglDy_3"></path>
+</clipPath>
+</defs>
+<style data-made-with="vivus-instant">.MgEnglDy_0{stroke-dasharray:161 163;stroke-dashoffset:162;animation:MgEnglDy_draw 1000ms ease-out 0ms forwards;}.MgEnglDy_1{stroke-dasharray:161 163;stroke-dashoffset:162;animation:MgEnglDy_draw 1000ms ease-out 166ms forwards;}.MgEnglDy_2{stroke-dasharray:161 163;stroke-dashoffset:162;animation:MgEnglDy_draw 1000ms ease-out 333ms forwards;}.MgEnglDy_3{stroke-dasharray:256 258;stroke-dashoffset:257;animation:MgEnglDy_draw 1000ms ease-out 500ms forwards;}@keyframes MgEnglDy_draw{100%{stroke-dashoffset:0;}}@keyframes MgEnglDy_fade{0%{stroke-opacity:1;}92.98245614035088%{stroke-opacity:1;}100%{stroke-opacity:0;}}</style></svg>
