@@ -26,7 +26,6 @@ export default function Home({ data, slides }) {
       <Head>
         <title>King James Digital</title>
         <meta name="description" content="King James Group is a 20-year old, independent South African agency, made up of seven specialist companies and divisions that work in tandem." />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
         <link rel="icon" type="image/x-icon" href="../img/favicon.png" />
       </Head>
 

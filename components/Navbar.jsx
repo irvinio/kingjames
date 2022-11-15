@@ -45,7 +45,7 @@ export default function Navbar() {
 
         <div className="navbar-end">
           <div className="navbar-item">
-              <a className="button is-rounded is-small is-light has-text-primary has-text-weight-bold">
+              <a className="button is-rounded is-small is-light has-text-primary has-text-weight-bold" href="#">
                 Let&apos;s Talk
               </a>
           </div>

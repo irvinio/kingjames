@@ -21,7 +21,7 @@ export default function Hero({ url, alt, title, subtitle, cta}) {
             <h5 className="subtitle is-5 has-text-white-ter">
                 {subtitle}
             </h5>
-            <a className='button is-primary is-small is-rounded has-text-weight-bold'>
+            <a className='button is-primary is-small is-rounded has-text-weight-bold' href="#">
                 {cta}
             </a>
         </div>
