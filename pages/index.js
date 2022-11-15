@@ -6,7 +6,7 @@ import Slider from '../components/Slider';
 
 export const getStaticProps = async () => {
 
-    const res = await fetch('http://localhost:3000/api/app');
+    const res = await fetch('https://kj.irvin.io/');
     const data = await res.json();
 
     const slider = await fetch('https://zm6zxgq6hyhe3smi5krzsrk2fu0iidhh.lambda-url.us-east-1.on.aws/');
