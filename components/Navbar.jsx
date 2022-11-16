@@ -2,6 +2,22 @@ import Image from 'next/image'
 import Logo from '../public/img/logoKJD.svg'
 import Link from 'next/link'
 
+let togglemenu = () => {
+  const mobilemenu = document.querySelector("#navMenu");
+
+  if (mobilemenu.classList.contains('fade-out') || !mobilemenu.classList.contains('fade-in')) {
+      mobilemenu.classList.add('fade-in');
+      mobilemenu.classList.remove('fade-out');
+      console.log('fade-in');
+  }
+  else {
+    mobilemenu.classList.add('fade-out');
+    mobilemenu.classList.remove('fade-in');
+    console.log('fade-out');
+  }
+
+}
+
 export default function Navbar() {
   return (
     <nav className='navbar container is-fullhd px-large' role="navigation" aria-label="main navigation">
@@ -15,14 +31,14 @@ export default function Navbar() {
           />
         </Link>
 
-        <a role="button" className="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
+        <a role="button" className="navbar-burger" onClick={() => togglemenu()} aria-label="menu" aria-expanded="false" data-target="navMenu">
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
         </a>
       </div>
 
-      <div id="navMenu" className="navbar-menu">
+      <div id="navMenu" className="navbar-menu fade-out">
         <div className="navbar-start is-flex-grow-1 is-justify-content-center">
           
           <a className="navbar-item" href='#services'>

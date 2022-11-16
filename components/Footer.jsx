@@ -2,12 +2,12 @@ export default function Footer() {
     return (
       <footer className="container is-fullhd">
         <section id="contact">
-          <div className="columns mb-large">
-            <div className="column is-8 is-align-items-flex-end">
+          <div className="columns mb-large is-flex-wrap-wrap">
+            <div className="column is-12-tablet is-8-desktop is-align-items-flex-end">
               <h2 className='subtitle is-spaced mb-medium'><span className='accent'></span>Contact us</h2>
-              <h3 className='title is-2 is-size-4-mobile'>Have a project in mind?<br />Let&apos;s make it happen</h3>
+              <h3 className='title is-2 is-size-3-mobile'>Have a project in mind?<br />Let&apos;s make it happen</h3>
             </div>
-            <div className="column is-size-5 is-4 is-flex is-align-items-flex-end">
+            <div className="column is-size-5 is-12-tablet is-4-desktop is-flex is-align-items-flex-end">
               <p>
                 22 Lawley Road, Woodstock, 7925,<br />
                 Cape Town, South Africa<br />
