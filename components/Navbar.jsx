@@ -8,14 +8,11 @@ let togglemenu = () => {
   if (mobilemenu.classList.contains('fade-out') || !mobilemenu.classList.contains('fade-in')) {
       mobilemenu.classList.add('fade-in');
       mobilemenu.classList.remove('fade-out');
-      console.log('fade-in');
   }
   else {
     mobilemenu.classList.add('fade-out');
     mobilemenu.classList.remove('fade-in');
-    console.log('fade-out');
   }
-
 }
 
 export default function Navbar() {
