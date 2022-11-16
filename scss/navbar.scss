@@ -1,4 +1,5 @@
 .navbar {
+    padding: 0 80px;
     .navbar-burger:hover {
         color: $primary-active;
     }
@@ -23,30 +24,33 @@
 
 $breakpoint: 1007px;
 
-#navMenu {
+.navbar {
   @include until($breakpoint) {
-    box-shadow: none;
-    display: block;
-    height: 260px;
-    &.fade-in {
-        transition: 0.3s all ease-out;
-        opacity: 1.0;  
-    }
-    &.fade-out {
-        padding: 0;
-        transition: 0.2s all ease-in;
-        opacity: 0.0;
-        height: 0px;
-        .navbar-item {
-            display: none;
+    padding: 0;
+    #navMenu{
+        box-shadow: none;
+        display: block;
+        height: 260px;
+        &.fade-in {
+            transition: 0.3s all ease-out;
+            opacity: 1.0;  
         }
-    }
-    .navbar-item {
-        text-align: center;
-        line-height: 30px;
-    }
-    .navbar-end {
-        padding: 1rem 0;
+        &.fade-out {
+            padding: 0;
+            transition: 0.2s all ease-in;
+            opacity: 0.0;
+            height: 0px;
+            .navbar-item {
+                display: none;
+            }
+        }
+        .navbar-item {
+            text-align: center;
+            line-height: 30px;
+        }
+        .navbar-end {
+            padding: 1rem 0;
+        }
     }
   }
 }

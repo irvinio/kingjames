@@ -20,7 +20,7 @@ let togglemenu = () => {
 
 export default function Navbar() {
   return (
-    <nav className='navbar container is-fullhd px-large' role="navigation" aria-label="main navigation">
+    <nav className='navbar container is-fullhd' role="navigation" aria-label="main navigation">
       <div className="navbar-brand">
         <Link className="navbar-item" href="/">
           <Image
