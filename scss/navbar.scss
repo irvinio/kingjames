@@ -26,10 +26,7 @@ $breakpoint: 1007px;
 
 .navbar {
   @include until($breakpoint) {
-    padding: 0 2rem;
-    .navbar-brand {
-        padding: 0;
-    }
+    padding: 0;
     #navMenu{
         box-shadow: none;
         display: block;
