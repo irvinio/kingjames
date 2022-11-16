@@ -1,3 +1,10 @@
+.nav-container {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 20;
+}
+
 .navbar {
     padding: 0 80px;
     .navbar-burger:hover {

@@ -17,7 +17,7 @@ export default function Slider({ slides }) {
             },
             loop: true,
             breakpoints: {
-                "(min-width: 1199px)": {
+                "(min-width: 1200px)": {
                   disabled: true
                 }
               },

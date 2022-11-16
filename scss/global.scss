@@ -1,5 +1,6 @@
 html {
     scroll-behavior: smooth;
+    scroll-padding-top: 80px;
 }
 
 ::-moz-selection {
@@ -47,8 +48,11 @@ section {
     section:not(.hero) {
         padding: 3rem 2rem;
     }
-    .is-blurb img {
-        margin-bottom: 1.5rem;
+    .is-blurb {
+        margin-bottom: 2rem;
+        img {
+            margin-bottom: 1.5rem;
+        }
     }
     footer li {
         text-align: center;
@@ -60,11 +64,13 @@ section {
     #services .column .title {
         min-height: 68px;
     }
-    .is-blurb img {
-        margin-bottom: 2.5rem;
-    }
-    .keen-slider__slide > div {
-        cursor: grab;
+    .is-blurb {
+        &:nth-of-type(-n+2)  {
+            margin-bottom: 3rem;
+        }
+        img {
+            margin-bottom: 2.5rem;
+        }
     }
     footer .title {
         margin-bottom: 1rem;
