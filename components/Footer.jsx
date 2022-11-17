@@ -1,7 +1,7 @@
 export default function Footer() {
     return (
-      <footer className="container is-fullhd">
-        <section id="contact">
+      <footer>
+        <section id="contact" className="container is-fullhd">
           <div className="columns mb-large is-flex-wrap-wrap">
             <div className="column is-12-tablet is-8-desktop is-align-items-flex-end">
               <h2 className='subtitle is-spaced mb-medium'><span className='accent'></span>Contact us</h2>

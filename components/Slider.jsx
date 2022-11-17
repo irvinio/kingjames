@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import { useState } from "react"
 import 'keen-slider/keen-slider.min.css'
 import { useKeenSlider } from 'keen-slider/react'
 import Image from 'next/image'
@@ -24,10 +24,7 @@ export default function Slider({ slides }) {
             slides: {
             origin: "center",
             perView: 1
-            },
-            slideChanged() {
-                console.log('slide changed')
-            },
+            }
         },
         []
       )
