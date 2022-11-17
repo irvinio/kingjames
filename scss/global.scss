@@ -28,7 +28,7 @@ section {
     }
 }
 
-#brands .column {
+.brands .column {
     height: 120px;
     img {
         width: auto;
@@ -61,7 +61,7 @@ section {
 }
 
 @include tablet {
-    #services .column .title {
+    .services .column .title {
         min-height: 68px;
     }
     .is-blurb {

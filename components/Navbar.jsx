@@ -1,21 +1,29 @@
+import {useEffect, useState} from 'react';
 import Image from 'next/image'
 import Logo from '../public/img/logoKJD.svg'
 import Link from 'next/link'
 
-let togglemenu = () => {
-  const mobilemenu = document.querySelector("#navMenu");
-
-  if (mobilemenu.classList.contains('fade-out') || !mobilemenu.classList.contains('fade-in')) {
-      mobilemenu.classList.add('fade-in');
-      mobilemenu.classList.remove('fade-out');
-  }
-  else {
-    mobilemenu.classList.add('fade-out');
-    mobilemenu.classList.remove('fade-in');
-  }
-}
-
 export default function Navbar() {
+  const [isActive, setIsActive] = useState(false);
+
+  let togglemenu = () => {
+    setIsActive(current => !current);
+  };
+
+  useEffect(() => {
+    const handleClick = event => {
+      if(!event.target.classList.contains('navbar-burger')) {
+        setIsActive(false)
+      }
+    }
+
+    document.body.addEventListener('click', handleClick);
+
+    return () => {
+      document.body.removeEventListener('click', handleClick);
+    };
+  }, []);
+
   return (
     <div className='nav-container'>
       <nav className='navbar container is-fullhd' role="navigation" aria-label="main navigation">
@@ -36,7 +44,7 @@ export default function Navbar() {
           </a>
         </div>
 
-        <div id="navMenu" className="navbar-menu fade-out">
+        <div id="navMenu" className={`navbar-menu ${isActive ? 'fade-in' : 'fade-out'}`}>
           <div className="navbar-start is-flex-grow-1 is-justify-content-center">
             
             <a className="navbar-item" href='#services'>

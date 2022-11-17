@@ -14,7 +14,8 @@
     "keen-slider": "^6.8.3",
     "next": "13.0.3",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "sharp": "^0.31.2"
   },
   "devDependencies": {
     "eslint": "8.27.0",

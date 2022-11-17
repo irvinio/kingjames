@@ -3,12 +3,18 @@
     top: 0;
     width: 100%;
     z-index: 20;
+    background-color: $primary;
 }
 
 .navbar {
     padding: 0 80px;
-    .navbar-burger:hover {
-        color: $primary-active;
+    .navbar-burger {
+        span {
+            pointer-events: none;
+        }
+        &:hover {
+            color: $primary-active;
+        }
     }
     .navbar-item {
         font-size: 0.875rem;
@@ -37,7 +43,7 @@ $breakpoint: 1007px;
       .navbar-brand {
           padding: 0;
       }
-      #navMenu{
+      .navbar-menu{
         box-shadow: none;
         display: block;
         height: 260px;

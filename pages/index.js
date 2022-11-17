@@ -38,7 +38,7 @@ export default function Home({ data, slides }) {
           cta={'View project'}
         />
 
-        <section id='services' className='pdb-zero'>
+        <section id='services' className='services pdb-zero'>
           <h2 className='subtitle is-4 is-spaced mb-medium'><span className='accent'></span>What we do</h2>
           <h1 className='title is-1 is-size-3-mobile mb-medium'>We offer a complete range of bespoke design and development services to help you turn your ideas into digital masterpieces</h1>
           <div className='columns is-variable is-6-tablet is-flex-wrap-wrap'>
@@ -61,7 +61,7 @@ export default function Home({ data, slides }) {
           />              
         </section>
 
-        <section id='brands'>
+        <section id='brands' className='brands'>
           <h2 className='subtitle is-spaced mb-medium'><span className='accent'></span>You&apos;ll be in good company</h2>
           <h1 className='title is-1 is-size-3-mobile mb-medium'>Trusted by leading brands</h1>
           <div className='columns is-gapless is-justify-content-center is-flex-wrap-wrap'>
