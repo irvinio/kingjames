@@ -1,13 +1,15 @@
-This is a [Next.js](https://nextjs.org/) project hosted on [Vercel](https://kingjames.vercel.app/).
+## This is a [Next.js](https://nextjs.org/) project hosted on [Vercel](https://kingjames.vercel.app/).
 
 The data is served from an [Express API](https://kj.irvin.io)
+
 ----
-##To get started:
 
-Clone the repo via: **https://github.com/irvinio/kingjames.git**
+### To get started:
 
-Then run `npm install`.
+- Clone the repo via: **https://github.com/irvinio/kingjames.git**
 
-The next step is to create an optimized production build via `npm run build`.
+- Then run `npm install`.
 
-Lastly enter `npm start` to run the build locally.
+- The next step is to create an optimized production build via `npm run build`.
+
+- Lastly enter `npm start` to run the build locally.
